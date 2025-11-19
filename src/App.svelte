@@ -148,6 +148,17 @@
     ctx.font = `65px "Noto Serif JP", serif`;
     ctx.fillText(`${source}   ${date}`, canvas.width / 2, bottomY);
     yPosition += lineSpacing;
+
+    // URL
+    ctx.fillStyle = "white";
+    ctx.font = `30px "Noto Serif JP", serif`;
+    ctx.globalAlpha = 0.5;
+    ctx.fillText(
+      "https://china-mfa-generator.vercel.app/",
+      canvas.width - 300,
+      canvas.height - 50,
+    );
+    ctx.globalAlpha = 1.0;
   }
 
   function downloadImage() {
@@ -212,6 +223,18 @@
         公序良俗に反さないようにお使いください。<br />
         このジェネレーターを使うことで生じた<br
         />いかなる問題についても責任を負いかねます。
+      </p>
+
+      <p style="margin-top: 1rem; font-size: 0.9rem; color: #aaa;">
+        ソースコードは
+        <a
+          href="https://github.com/semicolon-colon/china-mfa-generator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          こちら
+        </a>
+        からご覧いただけます。
       </p>
     </div>
 
