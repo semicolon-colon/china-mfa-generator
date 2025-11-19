@@ -154,7 +154,7 @@
     ctx.font = `30px "Noto Serif JP", serif`;
     ctx.globalAlpha = 0.5;
     ctx.fillText(
-      "https://china-mfa-generator.vercel.app/",
+      "https://semicolon-colon.github.io/china-mfa-generator/",
       canvas.width - 300,
       canvas.height - 50,
     );
