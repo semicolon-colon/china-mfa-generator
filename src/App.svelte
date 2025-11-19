@@ -174,7 +174,8 @@
     if (canvas && ctx && img) {
       // Track reactive dependencies
       fullText;
-      fontSize;
+      source;
+      date;
       // Ensure font is loaded before redrawing
       document.fonts.load('150px "Noto Serif JP"').then(() => {
         drawImage();
