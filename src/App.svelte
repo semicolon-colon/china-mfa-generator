@@ -155,7 +155,7 @@
     ctx.globalAlpha = 0.5;
     ctx.fillText(
       "https://semicolon-colon.github.io/china-mfa-generator/",
-      canvas.width - 300,
+      canvas.width - 430,
       canvas.height - 50,
     );
     ctx.globalAlpha = 1.0;
